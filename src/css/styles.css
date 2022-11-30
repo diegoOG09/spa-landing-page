@@ -1,0 +1,144 @@
+html {
+  max-width: 100%;
+  height: 100vh;
+}
+
+#wave {
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  width: 100%;
+  margin-left: -0.5rem;
+  transform: scaleY(1.05);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #fff2f3;
+}
+
+.navbar #nav {
+  display: flex;
+  align-items: center;
+  gap: 60%;
+  margin-bottom: 6rem;
+}
+.navbar #nav #join {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff2f3;
+  border: 2px solid #e8ac95;
+  border-radius: 30px;
+  box-shadow: #e8ac95 4px 4px 0 0;
+  color: #997d76;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.navbar #nav #join:hover {
+  background-color: #ffebdf;
+}
+.navbar #nav #join:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.navbar #nav ul {
+  display: flex;
+  width: 30%;
+  gap: 2rem;
+  align-items: center;
+  list-style: none;
+  margin: 3rem 0 3rem 0;
+  padding: 0;
+}
+.navbar #nav ul li > a {
+  text-decoration: none;
+  color: #997d76;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+main #model {
+  width: 45%;
+  margin: 0 auto;
+  margin-top: -3rem;
+  margin-left: 3rem;
+}
+main .main-info {
+  text-align: center;
+}
+main .main-info h1 {
+  margin: 0;
+  margin-top: 10rem;
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #e8ac95;
+  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+}
+main .main-info h2 {
+  display: inline-block;
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #c3a9a1;
+}
+main .main-info p {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #997d76;
+  font-weight: 400;
+  width: 50%;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+main .main-info .main-info__button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+main .main-info .main-info__button #schedule {
+  background-color: #ffebdf;
+  color: #997d76;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+main .main-info .main-info__button #appointment {
+  background-color: #e8ac95;
+  color: #fff2f3;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+main .main-info .main-info__button #appointment:hover {
+  box-shadow: #ecb3a1 0px 5px, #f3c2b8 0px 10px, #f9d1cd 0px 15px, #fce1e1 0px 20px, #fff2f3 0px 25px;
+}/*# sourceMappingURL=styles.css.map */
