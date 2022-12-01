@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  background-color: $lavender;
+  background-color: $seashell;
 }
 
 .navbar #nav {
@@ -87,13 +87,9 @@ body {
 }
 
 main {
-  #model {
-    width: 45%;
-    margin: 0 auto;
-    margin-top: -3rem;
-    margin-left: 3rem;
-  }
+  margin-bottom: 5rem;
   .main-info {
+    margin-bottom: 10rem;
     text-align: center;
     h1 {
       margin: 0;
@@ -136,8 +132,7 @@ main {
         background-color: $champagne;
         color: $brown;
         font-family: $poppins;
-        padding: .5rem 1rem;
-        border-radius: 10px;
+        padding: 0.5rem 1rem;
       }
       #appointment {
         background-color: $orange;
@@ -145,16 +140,55 @@ main {
         font-family: $poppins;
         font-size: 1.4rem;
         font-weight: 600;
-        padding: .5rem 1rem;
-        border-radius: 10px;
+        padding: 0.5rem 1rem;
         text-decoration: none;
         text-transform: uppercase;
-        transition: .5s;
+        transition: 0.5s;
         &:hover {
           box-shadow: #ecb3a1 0px 5px, #f3c2b8 0px 10px, #f9d1cd 0px 15px, #fce1e1 0px 20px, #fff2f3 0px 25px;
         }
       }
     }
-    
+  }
+}
+
+.booking {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  #model {
+    width: 50%;
+    justify-self: center;
+  }
+  .booking-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: $poppins;
+    font-size: 2rem;
+    color: $brown;
+    justify-self: start;
+
+    .number {
+      background-color: $champagne;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+    #wa-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: $lavender;
+      background-color: $orange;
+      border-radius: 10px;
+      padding: .5rem 0;
+      i {
+        margin-right: 1rem;
+      }
+    }
   }
 }

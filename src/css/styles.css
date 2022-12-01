@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background-color: #fff2f3;
+  background-color: #fff4f1;
 }
 
 .navbar #nav {
@@ -74,13 +74,11 @@ body {
   font-weight: 500;
 }
 
-main #model {
-  width: 45%;
-  margin: 0 auto;
-  margin-top: -3rem;
-  margin-left: 3rem;
+main {
+  margin-bottom: 5rem;
 }
 main .main-info {
+  margin-bottom: 10rem;
   text-align: center;
 }
 main .main-info h1 {
@@ -125,7 +123,6 @@ main .main-info .main-info__button #schedule {
   color: #997d76;
   font-family: "Poppins", sans-serif;
   padding: 0.5rem 1rem;
-  border-radius: 10px;
 }
 main .main-info .main-info__button #appointment {
   background-color: #e8ac95;
@@ -134,11 +131,50 @@ main .main-info .main-info__button #appointment {
   font-size: 1.4rem;
   font-weight: 600;
   padding: 0.5rem 1rem;
-  border-radius: 10px;
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.5s;
 }
 main .main-info .main-info__button #appointment:hover {
   box-shadow: #ecb3a1 0px 5px, #f3c2b8 0px 10px, #f9d1cd 0px 15px, #fce1e1 0px 20px, #fff2f3 0px 25px;
+}
+
+.booking {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.booking #model {
+  width: 50%;
+  justify-self: center;
+}
+.booking .booking-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  color: #997d76;
+  justify-self: start;
+}
+.booking .booking-info .number {
+  background-color: #ffebdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.booking .booking-info p {
+  font-size: 1.5rem;
+}
+.booking .booking-info #wa-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff2f3;
+  background-color: #e8ac95;
+  border-radius: 10px;
+  padding: 0.5rem 0;
+}
+.booking .booking-info #wa-button i {
+  margin-right: 1rem;
 }/*# sourceMappingURL=styles.css.map */
